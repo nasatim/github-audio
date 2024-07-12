@@ -32,7 +32,7 @@ if(isDev)
 else
   logger.appStarted(port);
 
-// Apply security middleware
+// Apply security middlewares
 app.use(helmet());
 
 // Remove x-powered-by header
